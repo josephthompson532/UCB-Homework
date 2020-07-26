@@ -18,3 +18,5 @@ news setup for the program. For instance, had I been coding alone, I likely woul
 
 ## Results
 The initial program that used the for loop ran in .5117 seconds while the refactored program ran in .10156 seconds. This means my refactored code was many times faster.
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/66881241/88487480-3e63c480-cf3a-11ea-8fbd-523a55680cb8.png)
+<img width="433" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/66881241/88487489-50456780-cf3a-11ea-9fcf-e94c108996ce.png">
