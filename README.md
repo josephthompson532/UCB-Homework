@@ -16,6 +16,9 @@ The nested loop was the logic really holding the program back. It takes much mor
 A particular challenge for me was grasping the scope of what I needed to do with regards to the 
 news setup for the program. For instance, had I been coding alone, I likely would have forgotten that I would need to create an array for TickerVolume as well as tickerStartingPrices and tickerEndingPrices. I also had a hard time keeping track of which variables I was using for the for loops and whether or not they were allowed to be the same variable.
 
+![Screen Shot 2020-07-26 at 12 21 11 PM](https://user-images.githubusercontent.com/66881241/88487508-88e54100-cf3a-11ea-86d6-46d256470016.png)
+
+
 ## Results
 The initial program that used the for loop ran in .5117 seconds while the refactored program ran in .10156 seconds. This means my refactored code was many times faster.
 
