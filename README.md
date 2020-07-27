@@ -35,3 +35,5 @@ news setup for the program. For instance, had I been coding alone, I likely woul
 ## Results
 The initial program that used the for loop ran in .5117 seconds while the refactored program ran in .10156 seconds. This means my refactored code was many times faster.
 
+## Summary
+In conclusion, in this challenge we looked at some of the advantages to refactoring code. A downside is that it is not always as intuitive as the unrefactored code ends up being. Refactoring code takes even more time added on to what it already takes to make VBA code as opposed to using Excel directly. However, the most efficient code takes a little bit more work and requires focus on the efficieny of the code itself. While the code for the original is more intuitive, the refactored code actually more flexible and runs faster. It is just going to take more time to flush out the code to what is most efficient.
