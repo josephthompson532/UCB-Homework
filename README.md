@@ -20,7 +20,7 @@ The times for the un-refactored programs is below:
 
 The times for the refactored programs are much faster. They are below:
 
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/66881241/88487480-3e63c480-cf3a-11ea-8fbd-523a55680cb8.png)
+<img width="423" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/66881241/88509978-f7f08300-cf96-11ea-926f-7c4c3504a90b.png">
 
 <img width="433" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/66881241/88487489-50456780-cf3a-11ea-9fcf-e94c108996ce.png">
 
