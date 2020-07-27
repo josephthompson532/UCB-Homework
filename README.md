@@ -12,10 +12,17 @@ This challenge was fairly straightforward to analyze and I encountered very few 
 ### Analysis of Refactoring
 The nested loop was the logic really holding the program back. It takes much more time to do a nested loop than it does to simply index every variable at a desired tickerIndex. These constitute two distinct coding design patterns. This subtle change allowed the program to loop through each ticker and get the starting and ending prices as well as summing the ticker volume without running inside another loop. I can see how this woul be faster. Ultimately, it was faster by a factor of 5 when we ran the program using a nested loop and the Timer function.
 
+The times for the un-refactored programs is below:
+
 <img width="424" alt="Unrefactored-2018 " src="https://user-images.githubusercontent.com/66881241/88507920-5bc47d00-cf92-11ea-9692-8cf50be02f50.png">
 
 <img width="422" alt="Unrefactored - 2017" src="https://user-images.githubusercontent.com/66881241/88507952-726ad400-cf92-11ea-8245-a4984b068ada.png">
 
+The times for the refactored programs are much faster. They are below:
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/66881241/88487480-3e63c480-cf3a-11ea-8fbd-523a55680cb8.png)
+
+<img width="433" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/66881241/88487489-50456780-cf3a-11ea-9fcf-e94c108996ce.png">
 
 
 ### Challenges of Refactoring
@@ -28,7 +35,3 @@ news setup for the program. For instance, had I been coding alone, I likely woul
 ## Results
 The initial program that used the for loop ran in .5117 seconds while the refactored program ran in .10156 seconds. This means my refactored code was many times faster.
 
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/66881241/88487480-3e63c480-cf3a-11ea-8fbd-523a55680cb8.png)
-
-
-<img width="433" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/66881241/88487489-50456780-cf3a-11ea-9fcf-e94c108996ce.png">
