@@ -1,7 +1,7 @@
 # VBA Stock Anaysis Automation
 
 ## Overview of the Project
-In this project we automated an analysis of stocks using VBA and then refactored the program to make it run more efficiently. While there are many ways to write a program, not all programs run equally quick. Through rethinking the code we were abe to make a quicker program that calculated the Total Daily Colume and Return for any given ticker on a spreadsheet. We then automated the formating of the output data as well and finished off by adding easy to use Buttons for the end user.
+In this project we automated an analysis of stocks using VBA and then refactored the program to make it run more efficiently. Initially, we needed a program that would analyze a variety of stocks for a given year. While there are many ways to write a program, not all programs run equally quick. Through rethinking the code we were abe to make a quicker program that calculated the Total Daily Colume and Return for any given ticker and year on a spreadsheet. We then automated the formating of the output data as well and finished off by adding easy to use Buttons for the end user.
 
 ### Purpose
 The purpose of this project was to show how changes to the stucture of code can cause the program to be more efficient by a factor of many times. In this particular circumstance, the presence of a nested loop made the program much slower than it need to be. 
