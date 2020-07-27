@@ -12,6 +12,12 @@ This challenge was fairly straightforward to analyze and I encountered very few 
 ### Analysis of Refactoring
 The nested loop was the logic really holding the program back. It takes much more time to do a nested loop than it does to simply index every variable at a desired tickerIndex. These constitute two distinct coding design patterns. This subtle change allowed the program to loop through each ticker and get the starting and ending prices as well as summing the ticker volume without running inside another loop. I can see how this woul be faster. Ultimately, it was faster by a factor of 5 when we ran the program using a nested loop and the Timer function.
 
+<img width="424" alt="Unrefactored-2018 " src="https://user-images.githubusercontent.com/66881241/88507920-5bc47d00-cf92-11ea-9692-8cf50be02f50.png">
+
+<img width="422" alt="Unrefactored - 2017" src="https://user-images.githubusercontent.com/66881241/88507952-726ad400-cf92-11ea-8245-a4984b068ada.png">
+
+
+
 ### Challenges of Refactoring
 A particular challenge for me was grasping the scope of what I needed to do with regards to the 
 news setup for the program. For instance, had I been coding alone, I likely would have forgotten that I would need to create an array for TickerVolume as well as tickerStartingPrices and tickerEndingPrices. I also had a hard time keeping track of which variables I was using for the for loops and whether or not they were allowed to be the same variable.
